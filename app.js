@@ -5,7 +5,8 @@
 // mongoose setup
 require('./mongoose-db');
 require('./typeorm-db')
-
+var password = "test1234"
+var AWS_ACCESS_KEY_ID = "test123456679669"
 var st = require('st');
 var crypto = require('crypto');
 var express = require('express');
